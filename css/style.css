@@ -243,20 +243,16 @@ about
 
 .about div article:nth-child(1) {
   border-bottom: 1px solid #7a7a7a;
-  margin-top: 50px;
-}
-
-.about div article:nth-child(2) {
-  border-left: 1px solid #7a7a7a;
-  margin-top: 50px;
+  border-right: 1px solid #7a7a7a;
 }
 
 .about div article:nth-child(3) {
-  border-right: 1px solid #7a7a7a;
+  color: red;
 }
 
 .about div article:nth-child(4) {
   border-top: 1px solid #7a7a7a;
+  border-left: 1px solid #7a7a7a;
 }
 
 .about div article i {

@@ -203,17 +203,20 @@ about
 
       &:nth-child(1) {
         border-bottom: 1px solid $text;
-        margin-top: 50px;
-      }
-      &:nth-child(2) {
-        border-left: 1px solid $text;
-        margin-top: 50px;
-      }
-      &:nth-child(3) {
         border-right: 1px solid $text;
+        // margin-top: 50px;
+      }
+      // &:nth-child(2) {
+      //   // border-left: 1px solid $text;
+      //   // margin-top: 50px;
+      // }
+      &:nth-child(3) {
+        // border-right: 1px solid $text;
+        color: red;
       }
       &:nth-child(4) {
         border-top: 1px solid $text;
+        border-left: 1px solid $text;
       }
       i {
         color: $black;
